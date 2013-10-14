@@ -12,8 +12,12 @@
 
 20 NP -> Det Nbar
 1 NP -> Proper
+1 NP -> NounProp
+1 NP -> NounPropPl
+1 NP -> Pronoun
 
 20 Nbar -> Noun
 1 Nbar -> Nbar PP
+1 Nbar -> NounPl
 
 1 PP -> Prep NP
