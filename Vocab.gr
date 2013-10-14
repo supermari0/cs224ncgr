@@ -128,76 +128,76 @@
 1	AdjS ->	hardest
 
 # Plural nouns.
-1	Misc ->	coconuts
-1	Misc ->	halves
-1	Misc ->	snows
-1	Misc ->	mountains
-1	Misc ->	areas
-1	Misc ->	strangers
-1	Misc ->	inches
-1	Misc ->	snakes
-1	Misc ->	ants
-1	Misc ->	nights
+1	NounPl ->	coconuts
+1	NounPl ->	halves
+1	NounPl ->	snows
+1	NounPl ->	mountains
+1	NounPl ->	areas
+1	NounPl ->	strangers
+1	NounPl ->	inches
+1	NounPl ->	snakes
+1	NounPl ->	ants
+1	NounPl ->	nights
 
 # More proper nouns, not people.
 
-1	Misc ->	Camelot
-1	Misc ->	England
-1	Misc ->	Holy Grail
-1	Misc ->	Round Table
+1	NounProp ->	Camelot
+1	NounProp ->	England
+1	NounProp ->	Holy Grail
+1	NounProp ->	Round Table
 
 # Plural proper nouns.
-1	Misc ->	Britons
-1	Misc ->	Saxons
+1	NounPropPl ->	Britons
+1	NounPropPl ->	Saxons
 
 # Personal pronouns.
-1	Misc ->	he
-1	Misc ->	her
-1	Misc ->	him
-1	Misc ->	it
-1	Misc ->	one
-1	Misc ->	she
-1	Misc ->	them
-1	Misc ->	they
+1	Pronoun ->	he
+1	Pronoun ->	her
+1	Pronoun ->	him
+1	Pronoun ->	it
+1	Pronoun ->	one
+1	Pronoun ->	she
+1	Pronoun ->	them
+1	Pronoun ->	they
 
 # Possessive personal pronouns
-1	Misc ->	her
-1	Misc ->	his
-1	Misc ->	its
-1	Misc ->	their
+1	PronounPs ->	her
+1	PronounPs ->	his
+1	PronounPs ->	its
+1	PronounPs ->	their
 
 # Adverbs.
-1	Misc ->	again
-1	Misc ->	already
-1	Misc ->	currently
-1	Misc ->	frequently
-1	Misc ->	precisely
-1	Misc ->	south
-1	Misc ->	successfully
-1	Misc ->	unfortunately
+1	Adv ->	again
+1	Adv ->	already
+1	Adv ->	currently
+1	Adv ->	frequently
+1	Adv ->	precisely
+1	Adv ->	south
+1	Adv ->	successfully
+1	Adv ->	unfortunately
 
 # 'do'/'does'
-1	Misc ->	do
-1	Misc ->	does
+1	Do ->	do
+1	Does ->	does
 
 # 'to'
-1	Misc ->	to
+1	To ->	to
 
 # 'not'
-1	Misc ->	not
+1	Not ->	not
 
 # Verbs (base form).
-1	Misc ->	have
-1	Misc ->	speak
-1	Misc ->	cover
-1	Misc ->	be
-1	Misc ->	ride
-1	Misc ->	drink
-1	Misc ->	grow
-1	Misc ->	carry
-1	Misc ->	suggest
-1	Misc ->	migrate
-1	Misc ->	know
+1	Verb ->	have
+1	Verb ->	speak
+1	Verb ->	cover
+1	Verb ->	be
+1	Verb ->	ride
+1	Verb ->	drink
+1	Verb ->	grow
+1	Verb ->	carry
+1	Verb ->	suggest
+1	Verb ->	migrate
+1	Verb ->	know
 
 # Verbs (past tense).
 1	Misc ->	had
