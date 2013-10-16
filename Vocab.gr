@@ -46,9 +46,10 @@
 1	VerbT -> rides
 
 # End-of-sentence.
-1	EOS ->	!
-1	EOS ->	.
-1	EOS ->	?
+1   EOS -> {Exclamation | Period | QuestionMark}
+1	Exclamation ->	!
+1	Period ->	.
+1	QuestionMark ->	?
 
 # Pauses.
 1	Pause ->	,
@@ -70,7 +71,7 @@
 1	NUM -> {eight | five | one | 5.5 | sixty | 5,000}
 
 # Expletive.
-1	Misc -> there
+1	There -> there
 
 # Subordinating conjunctions.
 1	Misc -> {that | so | while | because | if}

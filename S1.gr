@@ -6,9 +6,14 @@
 
 # This is a very, very, very simple grammar to get you started.
 
-1 S1 -> NP VP .
-1 S1 -> NP VP EOS
-1 S1 -> S1 Pause S1
+80 S1 -> Statement
+20 S1 -> Question
+
+50 Statement -> NP VP .
+30 Statement -> NP VP EOS
+5 Statement -> NP VP There EOS
+1 Statement -> NP VP There Pause Statement
+14 Statement -> Statement Pause Statement
 
 
 # All forms of nouns
@@ -21,7 +26,7 @@
 1 NP -> Pronoun Nbar
 
 20 Nbar -> Noun
-Nbar -> AdjNoun
+1 Nbar -> AdjNoun
 1 Nbar -> Nbar PP
 1 Nbar -> NUM NounPl
 
@@ -33,7 +38,14 @@ Nbar -> AdjNoun
 1 PP -> Prep NP
 
 # All forms of verbs
-1 VP -> VerbT NP
-1 VP -> VerbP NP
-1 VP -> VerbPP NP
-1 VP -> Verb3S NP
+1 V -> VerbT 
+1 V -> VerbP
+1 V -> VerbPP
+1 V -> Verb3S
+
+1 VP -> V NP
+1 VP -> V Adv NP
+1 VP -> V
+
+# Questions
+1 Question -> {WhPron | WhPron | WhPoss | WhAdv} VP QuestionMark
