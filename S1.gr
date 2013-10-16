@@ -7,17 +7,33 @@
 # This is a very, very, very simple grammar to get you started.
 
 1 S1 -> NP VP .
+1 S1 -> NP VP EOS
+1 S1 -> S1 Pause S1
 
-1 VP -> VerbT NP
 
+# All forms of nouns
 20 NP -> Det Nbar
+1 NP -> NP Conj NP
 1 NP -> Proper
 1 NP -> NounProp
-1 NP -> NounPropPl
+1 NP -> NUM NounPropPl
 1 NP -> Pronoun
+1 NP -> Pronoun Nbar
 
 20 Nbar -> Noun
+Nbar -> AdjNoun
 1 Nbar -> Nbar PP
-1 Nbar -> NounPl
+1 Nbar -> NUM NounPl
+
+1 AdjNoun -> Adj Noun
+1 AdjNoun -> AdjC Noun
+1 AdjNoun -> AdjS Noun
+
 
 1 PP -> Prep NP
+
+# All forms of verbs
+1 VP -> VerbT NP
+1 VP -> VerbP NP
+1 VP -> VerbPP NP
+1 VP -> Verb3S NP
